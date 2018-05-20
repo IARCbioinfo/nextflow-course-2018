@@ -1,6 +1,6 @@
 # Using the IARC nextflow bioinformatics pipelines course 2018
 
-[![Join the chat at https://gitter.im/IARCbioinfo/nextflow-course-2018](https://badges.gitter.im/IARCbioinfo/nextflow-course-2018.svg)](https://gitter.im/IARCbioinfo/nextflow-course-2018?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![](https://www.nextflow.io/img/nextflow2014_no-bg.png)
 
 The aim of this course is to enable participants to use the bioinformatics pipelines developed at IARC using nextflow.
 
@@ -35,23 +35,33 @@ __Thursday 24 May__
 
 ## Gitter Chat
 
-A [gitter channel]() is open for the course. This will allow participants to discuss on their projects but also to ask any question regarding the course.
+A [![Join the chat at https://gitter.im/IARCbioinfo/nextflow-course-2018](https://badges.gitter.im/IARCbioinfo/nextflow-course-2018.svg)](https://gitter.im/IARCbioinfo/nextflow-course-2018?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) is open for the course. This will allow participants to discuss on their projects but also to ask any question regarding the course.
 
 ## Laptop setup
 
 Laptops use Ubuntu 16.04.
 
-Nextfloz is already installed and in `~/bin`, which is in your `PATH`.
+Nextflow is already installed and in `~/bin`, which is in your `PATH`.
 
 Docker is already installed. If you are curious, here is how to install it on Docker [website](https://docs.docker.com/install/linux/docker-ce/ubuntu/).
 
 If you need a good text editor, [Atom](https://atom.io) is also installed.
 
-
 ## Useful links
 
 - [Docker](https://www.docker.com) and [DockerHub](https://hub.docker.com)
-- Singularity
-- Nextflow reference: Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. Nextflow enables reproducible computational workflows. _Nat Biotechnol._ 2017 Apr 11;35(4):316-319. doi: 10.1038/nbt.3820. PubMed PMID: 28398311.
+- [Singularity](https://singularity.lbl.gov)
+- Nextflow ressources:
+ - Nextflow [website](https://www.nextflow.io/index.html)
+ - Nextflow [documentation](https://www.nextflow.io/docs/latest/index.html)
+ - Nextflow [releases on GitHub](https://github.com/nextflow-io/nextflow/releases) with changelogs
+ - Nextflow [issues on GitHub](https://github.com/nextflow-io/nextflow/issues)
+ - Nextflow [![Gitter](https://badges.gitter.im/IARCbioinfo/nextflow-course-2018.svg)](https://gitter.im/nextflow-io/nextflow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+ - Nextflow [blog](https://www.nextflow.io/blog.html)
+ - Nextflow [google group](https://groups.google.com/forum/#!forum/nextflow)
+ - Nextflow [twitter](https://twitter.com/nextflowio)
+ - A curated list of [Nextflow pipelines](https://github.com/nextflow-io/awesome-nextflow)
+ - [nf-core](http://nf-co.re): an emerging effort to collect high quality pipelines
+ - Nextflow paper: Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. Nextflow enables reproducible computational workflows. _Nat Biotechnol._ 2017 Apr 11;35(4):316-319. [doi: 10.1038/nbt.3820](https://www.nature.com/articles/nbt.3820). PubMed PMID: 28398311.
 
 ## Tips and tricks
