@@ -1,4 +1,7 @@
 # Using the IARC nextflow bioinformatics pipelines course 2018
+
+[![Join the chat at https://gitter.im/IARCbioinfo/nextflow-course-2018](https://badges.gitter.im/IARCbioinfo/nextflow-course-2018.svg)](https://gitter.im/IARCbioinfo/nextflow-course-2018?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The aim of this course is to enable participants to use the bioinformatics pipelines developed at IARC using nextflow.
 
 ## Description of the course
