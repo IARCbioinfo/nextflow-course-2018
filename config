@@ -1,0 +1,43 @@
+process {
+	scratch = false
+	errorStrategy = 'retry'
+	maxErrors = 10000
+	memory = { task.exitStatus == 130 ? 4.GB * task.attempt : 4.GB }
+	maxRetries = { task.exitStatus == 130 ? 4 : 2 }
+}
+
+executor {
+	name = 'lsf'
+	perJobMemLimit = true
+	queueSize = 50
+}
+
+trace {
+    enabled = true
+}
+
+timeline {
+    enabled = true
+}
+
+report {
+	enabled = true
+}
+		
+mail {
+	from = 'username@iarc.fr'
+    	smtp.host = 'email.iarc.fr'
+    	smtp.port = 587
+    	smtp.user = 'username'
+    	smtp.password = 'XXXXXXXXXXX'
+}
+		
+notification {
+	enabled = true
+	to = 'username@iarc.fr'
+}
+		
+singularity {
+	cacheDir = '/data/username/.singularity/'
+}
+		
