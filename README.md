@@ -92,6 +92,7 @@ One example of each possibility is given (`nextflow.config_1` and `nextflow.conf
   - A curated list of [Nextflow pipelines](https://github.com/nextflow-io/awesome-nextflow)
   - [nf-core](http://nf-co.re): an emerging effort to collect high quality pipelines
   - Nextflow paper: Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. Nextflow enables reproducible computational workflows. _Nat Biotechnol._ 2017 Apr 11;35(4):316-319. [doi: 10.1038/nbt.3820](https://www.nature.com/articles/nbt.3820). PubMed PMID: 28398311.
+  - Another paper by nextflow folks about the impact of Docker on performance: https://peerj.com/articles/1273/
 - Dataflow programming on [wikipedia](https://en.wikipedia.org/wiki/Dataflow_programming)
 - Scientific workflow system on [wikipedia](https://en.wikipedia.org/wiki/Scientific_workflow_system)
 
