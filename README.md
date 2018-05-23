@@ -50,7 +50,7 @@ If you need a good text editor, [Atom](https://atom.io) is also installed.
 ## Demo commands
 
 ```
-nextflow run iarcbioinfo/nf_coverage_demo -r master -with-docker --bam_folder data_test/BAM/BAM_multiple/ --bed data_test/BED/TP53_exon2_11.bed
+nextflow run iarcbioinfo/nf_coverage_demo -with-docker --bam_folder data_test/BAM/BAM_multiple/ --bed data_test/BED/TP53_exon2_11.bed
 ```
 
 ```
