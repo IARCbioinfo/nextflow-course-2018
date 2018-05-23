@@ -63,7 +63,7 @@ nextflow run iarcbioinfo/RNAseq-nf -with-docker --input_folder data_test/BAM/BAM
 
 ## Config
 
-Config files examples are in this repository. Note that adding `-with-trace` in your `nextflow run`command is equivalent to have a configuration file containing:
+Config files examples are in the config folder in this repository. Note that adding `-with-trace` in your `nextflow run` command is equivalent to have a configuration file containing:
 ```
 trace {
     enabled = true
@@ -73,6 +73,7 @@ or:
 ```
 trace.enabled = true
 ```
+One example of each possibility is given (`nextflow.config_1` and `nextflow.config_2`). You will also find the configuration file I propose to use on IARC Jupiter cluster.
 
 ## Useful links
 
