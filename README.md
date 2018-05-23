@@ -61,6 +61,19 @@ nextflow run iarcbioinfo/platypus-nf -with-docker --input_folder data_test/BAM/ 
 nextflow run iarcbioinfo/RNAseq-nf -with-docker --input_folder data_test/BAM/BAM_multiple/ --output_folder BAM_realigned --ref_folder data_test/REF --gtf data_test/REF/TP53_small.gtf --bed data_test/BED/TP53_small.bed --mem 4
 ```
 
+## Config
+
+Config files examples are in this repository. Note that adding `-with-trace` in your `nextflow run`command is equivalent to have a configuration file containing:
+```
+trace {
+    enabled = true
+}
+```
+or:
+```
+trace.enabled = true
+```
+
 ## Useful links
 
 - IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
