@@ -47,23 +47,37 @@ Docker is already installed. If you are curious, here is how to install it on Do
 
 If you need a good text editor, [Atom](https://atom.io) is also installed.
 
+## Demo commands
+
+```
+nextflow run iarcbioinfo/nf_coverage_demo -r master -with-docker --bam_folder data_test/BAM/BAM_multiple/ --bed data_test/BED/TP53_exon2_11.bed
+```
+
+```
+nextflow run iarcbioinfo/platypus-nf -with-docker --input_folder data_test/BAM/ --ref data_test/REF/17.fasta
+```
+
+```
+nextflow run iarcbioinfo/RNAseq-nf -with-docker --input_folder data_test/BAM/BAM_multiple/ --output_folder BAM_realigned --ref_folder data_test/REF --gtf data_test/REF/TP53_small.gtf --bed data_test/BED/TP53_small.bed --mem 4
+```
+
 ## Useful links
 
 - IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
 - [Docker](https://www.docker.com) and [DockerHub](https://hub.docker.com). See my short [docker tutorial](https://github.com/IARCbioinfo/SBG-CGC_course2018/blob/master/demo_code/docker_demo.md) here if you want to know more about it. IARC bioinformatics [DockerHub page](https://hub.docker.com/u/iarcbioinfo/).
 - [Singularity](https://singularity.lbl.gov)
 - Nextflow ressources:
- - Nextflow [website](https://www.nextflow.io/index.html)
- - Nextflow [documentation](https://www.nextflow.io/docs/latest/index.html)
- - Nextflow [releases on GitHub](https://github.com/nextflow-io/nextflow/releases) with changelogs
- - Nextflow [issues on GitHub](https://github.com/nextflow-io/nextflow/issues)
- - Nextflow [![Gitter](https://badges.gitter.im/IARCbioinfo/nextflow-course-2018.svg)](https://gitter.im/nextflow-io/nextflow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
- - Nextflow [blog](https://www.nextflow.io/blog.html)
- - Nextflow [google group](https://groups.google.com/forum/#!forum/nextflow)
- - Nextflow [twitter](https://twitter.com/nextflowio)
- - A curated list of [Nextflow pipelines](https://github.com/nextflow-io/awesome-nextflow)
- - [nf-core](http://nf-co.re): an emerging effort to collect high quality pipelines
- - Nextflow paper: Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. Nextflow enables reproducible computational workflows. _Nat Biotechnol._ 2017 Apr 11;35(4):316-319. [doi: 10.1038/nbt.3820](https://www.nature.com/articles/nbt.3820). PubMed PMID: 28398311.
+  - Nextflow [website](https://www.nextflow.io/index.html)
+  - Nextflow [documentation](https://www.nextflow.io/docs/latest/index.html)
+  - Nextflow [releases on GitHub](https://github.com/nextflow-io/nextflow/releases) with changelogs
+  - Nextflow [issues on GitHub](https://github.com/nextflow-io/nextflow/issues)
+  - Nextflow [![Gitter](https://badges.gitter.im/IARCbioinfo/nextflow-course-2018.svg)](https://gitter.im/nextflow-io/nextflow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+  - Nextflow [blog](https://www.nextflow.io/blog.html)
+  - Nextflow [google group](https://groups.google.com/forum/#!forum/nextflow)
+  - Nextflow [twitter](https://twitter.com/nextflowio)
+  - A curated list of [Nextflow pipelines](https://github.com/nextflow-io/awesome-nextflow)
+  - [nf-core](http://nf-co.re): an emerging effort to collect high quality pipelines
+  - Nextflow paper: Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. Nextflow enables reproducible computational workflows. _Nat Biotechnol._ 2017 Apr 11;35(4):316-319. [doi: 10.1038/nbt.3820](https://www.nature.com/articles/nbt.3820). PubMed PMID: 28398311.
 - Dataflow programming on [wikipedia](https://en.wikipedia.org/wiki/Dataflow_programming)
 - Scientific workflow system on [wikipedia](https://en.wikipedia.org/wiki/Scientific_workflow_system)
 
