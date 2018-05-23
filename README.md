@@ -1,6 +1,6 @@
 # Using the IARC nextflow bioinformatics pipelines course 2018
 
-![](https://www.nextflow.io/img/nextflow2014_no-bg.png)
+![nextflow](https://www.nextflow.io/img/nextflow2014_no-bg.png)
 
 The aim of this course is to enable participants to use the bioinformatics pipelines developed at IARC using nextflow.
 
@@ -49,7 +49,8 @@ If you need a good text editor, [Atom](https://atom.io) is also installed.
 
 ## Useful links
 
-- [Docker](https://www.docker.com) and [DockerHub](https://hub.docker.com)
+- IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
+- [Docker](https://www.docker.com) and [DockerHub](https://hub.docker.com). See my short [docker tutorial](https://github.com/IARCbioinfo/SBG-CGC_course2018/blob/master/demo_code/docker_demo.md) here if you want to know more about it. IARC bioinformatics [DockerHub page](https://hub.docker.com/u/iarcbioinfo/).
 - [Singularity](https://singularity.lbl.gov)
 - Nextflow ressources:
  - Nextflow [website](https://www.nextflow.io/index.html)
@@ -63,5 +64,7 @@ If you need a good text editor, [Atom](https://atom.io) is also installed.
  - A curated list of [Nextflow pipelines](https://github.com/nextflow-io/awesome-nextflow)
  - [nf-core](http://nf-co.re): an emerging effort to collect high quality pipelines
  - Nextflow paper: Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. Nextflow enables reproducible computational workflows. _Nat Biotechnol._ 2017 Apr 11;35(4):316-319. [doi: 10.1038/nbt.3820](https://www.nature.com/articles/nbt.3820). PubMed PMID: 28398311.
+- Dataflow programming on [wikipedia](https://en.wikipedia.org/wiki/Dataflow_programming)
+- Scientific workflow system on [wikipedia](https://en.wikipedia.org/wiki/Scientific_workflow_system)
 
 ## Tips and tricks
