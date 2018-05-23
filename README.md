@@ -79,7 +79,7 @@ One example of each possibility is given (`nextflow.config_1` and `nextflow.conf
 
 - IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
 - [Docker](https://www.docker.com) and [DockerHub](https://hub.docker.com). See my short [docker tutorial](https://github.com/IARCbioinfo/SBG-CGC_course2018/blob/master/demo_code/docker_demo.md) here if you want to know more about it. IARC bioinformatics [DockerHub page](https://hub.docker.com/u/iarcbioinfo/).
-- [Singularity](https://singularity.lbl.gov)
+- [Singularity](https://singularity.lbl.gov) and the [PLOS one paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) presenting it.
 - Nextflow ressources:
   - Nextflow [website](https://www.nextflow.io/index.html)
   - Nextflow [documentation](https://www.nextflow.io/docs/latest/index.html)
