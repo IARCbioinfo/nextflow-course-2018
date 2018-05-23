@@ -19,7 +19,7 @@ Please note that the development of pipelines will only be very briefly covered 
 
 ## Agenda and slides
 
-__Wednesday 23 May__  
+__Wednesday 23 May__ ([slides](slides/day1.pdf))  
 09:00-10:00	Introduction to bioinformatics pipelines, nextflow, docker, Github and the IARC organization  
 10:00-10:30	Practical application: running your first pipeline  
 10:30-11:00	Break  
