@@ -1,0 +1,8 @@
+params {
+	bam_folder = 'data_test/BAM/BAM_multiple/'
+	bed = 'data_test/BED/TP53_exon2_11.bed'
+}
+
+docker {
+	enabled = true
+}
