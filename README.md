@@ -76,12 +76,17 @@ trace.enabled = true
 One example of each possibility is given (`nextflow.config_1` and `nextflow.config_2`). You will also find the configuration file I propose to use on IARC Jupiter cluster.
 
 ## IARC Jupiter cluster
+Create a symlink to singularity
+```
+ln -s  /appli57/singularity/singularity-2.4.5/bin/singularity /home/username/bin/
+```
+
 Add in your `~/.bash_profile`
 ```
 export NXF_JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk.x86_64/jre/
 export NXF_TEMP=/data/tmp
 
-export SINGULARITY_CACHEDIR=/data/follm/.singularity
+export SINGULARITY_CACHEDIR=/data/username/.singularity
 export SINGULARITY_LOCALCACHEDIR=/data/tmp/
 ```
 
