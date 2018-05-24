@@ -75,6 +75,16 @@ trace.enabled = true
 ```
 One example of each possibility is given (`nextflow.config_1` and `nextflow.config_2`). You will also find the configuration file I propose to use on IARC Jupiter cluster.
 
+## IARC Jupiter cluster
+Add in your `~/.bash_profile`
+```
+export NXF_JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk.x86_64/jre/
+export NXF_TEMP=/data/tmp
+
+export SINGULARITY_CACHEDIR=/data/follm/.singularity
+export SINGULARITY_LOCALCACHEDIR=/data/tmp/
+```
+
 ## Useful links
 
 - IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
@@ -95,6 +105,6 @@ One example of each possibility is given (`nextflow.config_1` and `nextflow.conf
   - Another paper by nextflow folks about the impact of Docker on performance: https://peerj.com/articles/1273/
 - Dataflow programming on [wikipedia](https://en.wikipedia.org/wiki/Dataflow_programming)
 - Scientific workflow system on [wikipedia](https://en.wikipedia.org/wiki/Scientific_workflow_system)
-- test 
+- test
 
 ## Tips and tricks
