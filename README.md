@@ -92,6 +92,8 @@ export SINGULARITY_LOCALCACHEDIR=/data/tmp/
 
 Change your `~/.nextflow/config` with the one on the config folder in this repository.
 
+Check cluster usage using `bhosts` or your own jobs using `bjobs`. You can also run our script to check what the others are doing: `/appli57/scripts/bjobs_monitor.r`.
+
 ## Useful links
 
 - IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
