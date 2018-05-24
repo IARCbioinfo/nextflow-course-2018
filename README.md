@@ -114,5 +114,6 @@ Check cluster usage using `bhosts` or your own jobs using `bjobs`. You can also 
   - Another paper by nextflow folks about the impact of Docker on performance: https://peerj.com/articles/1273/
 - Dataflow programming on [wikipedia](https://en.wikipedia.org/wiki/Dataflow_programming)
 - Scientific workflow system on [wikipedia](https://en.wikipedia.org/wiki/Scientific_workflow_system)
+- A [paper in PLOS Comp. Bio.](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947) about using GitHub efficiently to manage your bioinformatics projects
 
 ## Tips and tricks
