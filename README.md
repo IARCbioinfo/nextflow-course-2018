@@ -90,6 +90,8 @@ export SINGULARITY_CACHEDIR=/data/username/.singularity
 export SINGULARITY_LOCALCACHEDIR=/data/tmp/
 ```
 
+Change your `~/.nextflow/config` with the one on the config folder in this repository.
+
 ## Useful links
 
 - IARC bioinformatics [GitHub organization](https://github.com/IARCbioinfo)
