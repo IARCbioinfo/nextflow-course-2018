@@ -26,7 +26,7 @@ __Wednesday 23 May__ ([slides](slides/day1.pdf))
 11:00-11-30 The hidden structure of nextflow: work folder and configuration  
 11:30-12:30	Practical application: configuring, crashing, resuming and debugging pipelines
 
-__Thursday 24 May__  
+__Thursday 24 May__  ([slides](slides/day2.pdf))  
 09:00-09:30	Introduction to HPC clusters and running pipelines on a cluster.  
 09:30-10:30	Practical application: trace and visualise pipeline execution with log files.  
 10:30-11:00 Break  
